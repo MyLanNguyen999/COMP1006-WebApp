@@ -11,7 +11,28 @@ include('shared/header.php');
     </fieldset>
     <fieldset>
         <label for="make"> Make: * <label>
-        <input name="make" id="make" required /> 
+        <select name="make" id="make" required>
+            //* Create dropdown list for vehicle make
+            <?php
+                //*Connect db
+
+                include('shared/db.php');
+                //* Set up the query
+                $sql = "SELECT * FROM as1_make";
+                $cmd = $db->prepare($sql);
+                $cmd->execute();
+                $makes = $cmd->fetchALl();
+
+                //* Adding make to the dropdown list
+                foreach ($makes as $make ) {
+                    echo '<option>' .$make['make'] . '</option>';
+                }
+
+                //* Disconnect
+                $db = null;
+
+            ?>
+        </select> 
     </fieldset>
     <fieldset>
         <label for="Model"> Model: * <label>
