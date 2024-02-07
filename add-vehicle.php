@@ -30,7 +30,6 @@ include('shared/header.php');
 
                 //* Disconnect
                 $db = null;
-
             ?>
         </select> 
     </fieldset>

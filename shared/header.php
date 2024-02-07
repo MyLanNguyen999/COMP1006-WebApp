@@ -13,4 +13,7 @@
     <li>
         <a href="add-vehicle.php"> Add Vehicle </a>
     </li>
+    <li>
+        <a href="vehicle-list.php"> Vehicle List </a>
+    </li>
 </ul>       
