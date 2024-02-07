@@ -8,14 +8,15 @@
     <link href="./css/styles.css" rel="stylesheet" />
 </head>
 <body>
-<ul>
-    <li>
-        <a href="index.php"> Home </a>
-    </li>
-    <li>
-        <a href="add-vehicle.php"> Add Vehicle </a>
-    </li>
-    <li>
-        <a href="vehicle-list.php"> Vehicle List </a>
-    </li>
-</ul>       
+    <ul class="nav-menu">
+        <li>
+            <a href="index.php" class="nav-item"> Home </a>
+        </li>
+        <li>
+            <a href="add-vehicle.php" class="nav-item"> Add Vehicle </a>
+        </li>
+        <li>
+            <a href="vehicle-list.php" class="nav-item"> Vehicle List </a>
+        </li>
+    </ul>     
+ 

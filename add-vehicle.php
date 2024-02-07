@@ -45,7 +45,9 @@ include('shared/header.php');
         <label for="vehicleRange"> Vehicle Range: * <label>
         <input name="vehicleRange" id="vehicleRange" required /> 
     </fieldset> 
-    <button> Submit </button>
+    <div class="button">
+        <button> Submit </button>
+    </div>
 </form>
 </body>
 </html>

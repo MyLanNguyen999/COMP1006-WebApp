@@ -19,18 +19,22 @@ echo '<h1> Vehicle List </h1>';
 //* Format table
 echo '<table>
         <thead>
-            <th> Year </th>
-            <th> Make </th>
-            <th> Model </th>
-            <th> Range </th>
+            <tr>
+                <th> Year </th>
+                <th> Make </th>
+                <th> Model </th>
+                <th> Range </th>
+            </tr>
         </thead>';
 foreach ($as1_vehicles as $as1_vehicle) {
-    echo '<tr>
-            <td> ' . $as1_vehicle['year'] . '</td>
-            <td> ' . $as1_vehicle['make'] . '</td>
-            <td> ' . $as1_vehicle['model'] . '</td>
-            <td> ' . $as1_vehicle['vehicleRange'] . '</td>
-        </tr>';
+    echo '<tbody>
+            <tr>
+                <td> ' . $as1_vehicle['year'] . '</td>
+                <td> ' . $as1_vehicle['make'] . '</td>
+                <td> ' . $as1_vehicle['model'] . '</td>
+                <td> ' . $as1_vehicle['vehicleRange'] . '</td>
+             </tr>
+        </tbody>';
 }
 
 //* End the table
