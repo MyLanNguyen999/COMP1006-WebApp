@@ -64,7 +64,7 @@ if ($ok == true) {
     $db = null;
 
     //* Show the message to users
-    echo 'Your EV information is saved.';
+    echo '<p> Your EV information is saved.</p>';
 }
 ?>
 </body>

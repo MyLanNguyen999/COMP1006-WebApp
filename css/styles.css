@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: "Bricolage Grotesque", sans-serif;
 }
 .nav-menu {
     display: flex;
