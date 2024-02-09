@@ -2,14 +2,17 @@
     box-sizing: border-box;
     font-family: "Bricolage Grotesque", sans-serif;
 }
+
 .nav-menu {
     display: flex;
     justify-content: center;
 }
+
 li {
     list-style-type: none;
     margin-top: 5px;
- }
+}
+
 .nav-item {
     border: 1px solid;
     text-align: center;
@@ -29,32 +32,38 @@ h1,h2 {
     text-align: center;
     margin-top: 40px;
     color: #59A673;
+    
 }
+
 p {
     text-align: center;
     font-size: 20px;
 }
+
 fieldset {
     width: 30%;
     margin: 0 auto;
 }
+
 .button {
     text-align: center;
     margin-top: 10px;
     /* display: flex;
     justify-content: center; */
-    
+
 }
+
 button {
-    background-color:#59A673;
+    background-color: #59A673;
     padding: 7px;
     padding-left: 10px;
-    padding-right:10px;
+    padding-right: 10px;
     border: 1px solid;
     border-radius: 10px;
     color: white;
     font-size: 18px;
 }
+
 table {
     width: 25%;
     border: 1.5px solid #59A673;
@@ -66,6 +75,7 @@ thead {
     background-color: #59A673;
     color: white;
 }
-tbody > tr > td {
+
+tbody>tr>td {
     border: 1px solid lightgrey;
 }

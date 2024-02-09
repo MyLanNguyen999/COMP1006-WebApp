@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $title ?></title>
+    <!-- //* add css -->
     <link href="./css/normalize.css" rel="stylesheet" />
-    <link href="./css/styles.css" rel="stylesheet" />
+    <link href="./css/custom.css" rel="stylesheet" />
+    <!-- //* adding font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <ul class="nav-menu">
