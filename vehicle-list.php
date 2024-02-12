@@ -24,6 +24,7 @@ echo '<table>
                 <th> Make </th>
                 <th> Model </th>
                 <th> Range </th>
+                <th> Price </th>
             </tr>
         </thead>';
 foreach ($as1_vehicles as $as1_vehicle) {
@@ -33,6 +34,7 @@ foreach ($as1_vehicles as $as1_vehicle) {
                 <td> ' . $as1_vehicle['make'] . '</td>
                 <td> ' . $as1_vehicle['model'] . '</td>
                 <td> ' . $as1_vehicle['vehicleRange'] . '</td>
+                <td> ' . $as1_vehicle['price'] . '</td>
              </tr>
         </tbody>';
 }
